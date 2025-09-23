@@ -83,3 +83,37 @@ SWITCH(
 ```
 
 ---
+
+### **4. Visualizations (Power BI)**  
+Created visuals to answer key questions:  
+
+1. **Impact of Disability on Performance** → Clustered Column Chart  
+2. **Assessment Score vs Final Result** → Scatter Plot / Box Plot  
+3. **Gender vs Final Result** → Clustered Column Chart  
+4. **Highest Education vs Performance** → Column Chart  
+5. **Attempts vs Average Score** → Line Chart  
+6. **Overall KPIs** → Card visuals for Pass Rate, Dropout Rate, Average Score, Total Clicks  
+
+Added slicers for `gender`, `disability`, `age_band`, `highest_education`, `module`, and `semester`.  
+Click here to view the visualization report.
+
+---
+
+## Insights  
+
+- **Disability Status:** Students without disabilities had higher pass rates, suggesting barriers exist for disabled students.  
+- **Assessment Scores:** Strong correlation with final results — low scores were a clear indicator of failure.  
+- **Gender:** Little difference in overall outcomes, but module-level differences exist.  
+- **Education Level:** Higher prior education correlated with better outcomes.  
+- **Previous Attempts:** Students with repeated attempts often struggled, though some showed improvement after one retry.  
+
+---
+
+## Discussion  
+The analysis highlights how **engagement (clicks, assessments)** and **background (education, disability)** impact academic success.  
+This supports the case for:  
+- **Early intervention** for disengaged or struggling students.  
+- **Tailored support** for students with disabilities.  
+- **Encouraging strong assessment performance** as a predictor of success.  
+
+---
