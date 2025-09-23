@@ -14,3 +14,39 @@ The aim is to identify patterns in demographics, engagement, and assessments tha
 
 ---
 
+## Process & Steps  
+
+### **1. Data Cleaning (SQL)**  
+- Imported OULAD dataset into SQL.  
+- Handled:  
+  - Null values, blanks, and missing records.  
+  - Standardized text fields (e.g., gender, region).  
+  - Converted data types where necessary.  
+  - Dropped irrelevant/duplicate columns.  
+
+**Example SQL queries:**  
+```sql
+-- Checking for null/blank values
+SELECT *
+FROM studentInfo
+WHERE highest_education IS NULL OR TRIM(highest_education) = '';
+
+-- Removing duplicates
+SELECT id_student, COUNT(*)
+FROM studentAssessment
+GROUP BY id_student
+HAVING COUNT(*) > 1;
+```
+To view the entire SQL file
+---
+
+### **2. Data Modeling (Power BI)**  
+- Imported cleaned SQL tables into Power BI.  
+- Built relationships:  
+  - `studentInfo` ↔ `studentAssessment`  
+  - `studentAssessment` ↔ `assessments`  
+  - `studentVle` ↔ `vle`  
+  - `courses` linked via `code_module` & `code_presentation`.  
+- Removed unnecessary relationships to avoid circular references.  
+
+---
