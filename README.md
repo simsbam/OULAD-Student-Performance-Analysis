@@ -112,8 +112,18 @@ Click here to view the visualization report.
 ## Discussion  
 The analysis highlights how **engagement (clicks, assessments)** and **background (education, disability)** impact academic success.  
 This supports the case for:  
-- **Early intervention** for disengaged or struggling students.  
-- **Tailored support** for students with disabilities.  
-- **Encouraging strong assessment performance** as a predictor of success.  
+- **Early intervention** for disengaged or struggling students to reduce dropout rate.  
+- **Tailored support** for students with disabilities and with poor educational background. 
+- **Encouraging strong assessment performance** as a predictor of success.
+
+---
+
+## Conclusion  
+By analyzing the OULAD dataset, we can:  
+- Predict student outcomes using engagement and assessment metrics.  
+- Provide targeted academic support.  
+- Reduce dropout rates and improve learning outcomes.  
+
+This project demonstrates the power of combining **SQL for data preparation** and **Power BI for analytics & visualization** to extract actionable insights from educational datasets.  
 
 ---
