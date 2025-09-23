@@ -50,3 +50,36 @@ To view the entire SQL file
 - Removed unnecessary relationships to avoid circular references.  
 
 ---
+
+### **3. DAX Calculations**  
+Created calculated columns and measures for analysis:  
+
+```DAX
+-- Pass Rate %
+Pass Rate % =
+VAR TotalStudents = COUNTROWS(studentInfo)
+VAR PassStudents =
+    CALCULATE(
+        COUNTROWS(studentInfo),
+        studentInfo[final_result] = "Pass"
+    )
+RETURN DIVIDE(PassStudents, TotalStudents, 0) * 100
+
+-- Total Clicks
+Total Clicks = SUM(studentVle[sum_click])
+
+-- Average Assessment Score
+Average Assessment Score = AVERAGE(studentAssessment[score])
+
+-- Engagement Level
+Engagement Level =
+SWITCH(
+    TRUE(),
+    [Total Clicks] < 100, "Low",
+    [Total Clicks] >= 100 && [Total Clicks] < 500, "Medium",
+    [Total Clicks] >= 500, "High",
+    "Unknown"
+)
+```
+
+---
