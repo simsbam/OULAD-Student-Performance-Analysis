@@ -38,6 +38,7 @@ GROUP BY id_student
 HAVING COUNT(*) > 1;
 ```
 To view the entire SQL file
+
 ---
 
 ### **2. Data Modeling (Power BI)**  
