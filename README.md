@@ -37,7 +37,7 @@ FROM studentAssessment
 GROUP BY id_student
 HAVING COUNT(*) > 1;
 ```
-To view the entire SQL file
+To view the entire SQL file [Click here](https://github.com/simsbam/OULAD-Student-Performance-Analysis/blob/main/SQLQuery1.sql) 
 
 ---
 
