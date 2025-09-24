@@ -96,7 +96,7 @@ Created visuals to answer key questions:
 6. **Overall KPIs** → Card visuals for Pass Rate, Dropout Rate, Average Score, Total Clicks  
 
 Added slicers for `gender`, `disability`, `age_band`, `highest_education`, `module`, and `semester`.  
-Click here to view the visualization report.
+[Click here](https://github.com/simsbam/OULAD-Student-Performance-Analysis/blob/main/OULAD%20Viz%20File.pbix) to view the visualization report.
 
 ---
 
