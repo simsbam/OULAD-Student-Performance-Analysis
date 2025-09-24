@@ -9,7 +9,7 @@ The aim is to identify patterns in demographics, engagement, and assessments tha
 
 ## Dataset
 The raw dataset is large and is hosted externally.  
-[Download OULAD dataset from official source](https://analyse.kmi.open.ac.uk/open_dataset)  
+[Download OULAD dataset from official source](https://analyse.kmi.open.ac.uk/open-dataset)   
 
 ---
 
